@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<style>
+    h1::first-letter{
+        font-size: 2em; 
+    }
+    p::first-line{
+        background-color: bisque;
+    }
+    p::selection{
+        color: white;
+        background-color: rgb(240, 157, 24);
+    }
+    #fruit li::before{
+        content: "💕";
+    }
+    #apple::after{
+        content: "🍎";
+    }
+    #pineapple::after{
+        content: "🍍"
+    }
+    #fruit li::marker{
+        content: "—";
+        font-size: 20px;
+        background-color: rgb(228, 129, 16);
+
+    }
+</style>
+<body>
+    <h1>Hello Chandrabose</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quo officia fugit explicabo, soluta mollitia provident impedit quidem aliquam sint enim distinctio consequatur consectetur! Quisquam deleniti voluptatum deserunt quis suscipit.</p>
+    <ul id="fruit">
+        <li id="apple">apple</li>
+        <li id="manago">manago</li>
+        <li id="pineapple">pineapple</li>
+        <li id="orange">orange</li>
+
+    </ul>
+    
+</body>
+</html>
