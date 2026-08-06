@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .dropdown button{
+            background-color: cyan;
+            color: blueviolet;
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        .dropdown .content{
+            display: none;
+            position: absolute;
+            background-color: rgb(253, 253, 253);
+            min-width: 100px;
+            box-shadow: 2px 2px 5px black;
+
+        }
+        .dropdown:hover .content{
+            display: block;
+        }
+        .dropdown:hover .content{
+            background-color: rgb(138, 133, 142);
+        }
+        .dropdown a:hover{
+            background-color: tomato;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button> food</button>
+        <div class="content">
+            <a href="">Apple</a>
+            <a href="">Banana</a>
+            <a href="">orange</a>
+        </div>
+        
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt labore repudiandae, consequuntur adipisci, nulla similique eum officiis suscipit soluta perferendis quos enim consectetur unde fugiat molestiae excepturi reiciendis praesentium. Cumque.</p>
+    
+</body>
+</html>
