@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head> </head>
+  <style>
+    #container {
+      border: 2px solid;
+    } /*
+        #container p{
+            background-color: blueviolet;
+
+        }*/
+    /* #container ~p{
+            background-color: chocolate;
+        } */
+    #container ~ p {
+      background-color: crimson;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <p>This is #1</p>
+      <p>This is #2</p>
+      <p>This is #3</p>
+      <div>
+        <p>This is #4</p>
+      </div>
+    </div>
+    <p>This is #5</p>
+    <p>This is #6</p>
+  </body>
+</html>
